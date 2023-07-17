@@ -15,10 +15,10 @@
 
 O grupo escolheu as seguintes características para serem destrinchadas:
 
-- [Simplicidade](https://github.com/Victor-Buendia/tp2/blob/main/Simplicidade.md)
+- [Simplicidade](https://github.com/Victor-Buendia/tp2/blob/main/Caracteristicas/Simplicidade.md)
 - [Modularidade]()
-- [Boas interfaces](https://github.com/Victor-Buendia/tp2/blob/main/Boas_Interfaces.md)
-- [Ausência de Duplicidades](https://github.com/Victor-Buendia/tp2/blob/main/Ausencia_de_Duplicidades.md)
+- [Boas interfaces](https://github.com/Victor-Buendia/tp2/blob/main/Caracteristicas/Boas_Interfaces.md)
+- [Ausência de Duplicidades](https://github.com/Victor-Buendia/tp2/blob/main/Caracteristicas/Ausencia_de_Duplicidades.md)
 - [Portabilidade]()
-- [Boa documentação](https://github.com/Victor-Buendia/tp2/blob/main/Boa_Documentacao.md)
+- [Boa documentação](https://github.com/Victor-Buendia/tp2/blob/main/Caracteristicas/Boa_Documentacao.md)
 
