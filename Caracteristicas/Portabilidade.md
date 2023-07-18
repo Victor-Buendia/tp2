@@ -46,27 +46,27 @@ Para melhorar a portabilidade, é necessário realizar refatorações que lidem 
     - Introduzir objeto-parâmetro: Se o método longo envolver grupos de parâmetros, criar um objeto que represente esses parâmetros e passá-lo para o método extraído.
 
 3. Classe inchada:
-    3.1. Extrair classe: Identificar responsabilidades distintas na classe e criar novas classes para tratar essas responsabilidades separadamente.
-    3.2. Extrair interface: Extrair interfaces que representem diferentes aspectos da classe para permitir que ela seja mais facilmente adaptável a diferentes contextos.
+    - Extrair classe: Identificar responsabilidades distintas na classe e criar novas classes para tratar essas responsabilidades separadamente.
+    - Extrair interface: Extrair interfaces que representem diferentes aspectos da classe para permitir que ela seja mais facilmente adaptável a diferentes contextos.
 
 4. Lista de parâmetros longa demais:
-    4.1. Substituir parâmetro por método: Quando um método usa um parâmetro para obter um valor específico, substituí-lo por um método que retorne esse valor diretamente.
-    4.2. Introduzir objeto-parâmetro: Agrupar parâmetros relacionados em um objeto e passá-lo como um único parâmetro.
+    - Substituir parâmetro por método: Quando um método usa um parâmetro para obter um valor específico, substituí-lo por um método que retorne esse valor diretamente.
+    - Introduzir objeto-parâmetro: Agrupar parâmetros relacionados em um objeto e passá-lo como um único parâmetro.
 
 5. Mudanças divergentes:
-    5.1. Extrair classe: Identificar partes do código que mudam para diferentes plataformas e agrupá-las em classes separadas.
+    - Extrair classe: Identificar partes do código que mudam para diferentes plataformas e agrupá-las em classes separadas.
 
 6. Cirurgia com rifle:
-    6.1. Mover método: Mover métodos relacionados a diferentes plataformas para as classes que contêm as funcionalidades específicas de cada plataforma.
+    - Mover método: Mover métodos relacionados a diferentes plataformas para as classes que contêm as funcionalidades específicas de cada plataforma.
 
 7. Inveja de recursos:
-    7.1. Mover método: Mover métodos que usam recursos específicos de uma plataforma para a classe que detém esses recursos.
+    - Mover método: Mover métodos que usam recursos específicos de uma plataforma para a classe que detém esses recursos.
 
 8. Aglomerados de dados:
-    8.1. Introduzir objeto-parâmetro: Agrupar dados relacionados em um objeto e passá-lo como um único parâmetro nos métodos que precisam desses dados.
+    - Introduzir objeto-parâmetro: Agrupar dados relacionados em um objeto e passá-lo como um único parâmetro nos métodos que precisam desses dados.
 
 9. Obsessão primitiva:
-    9.1. Trocar dado por objeto: Substituir o uso excessivo de tipos primitivos por objetos que encapsulem os dados relacionados.
+    - Trocar dado por objeto: Substituir o uso excessivo de tipos primitivos por objetos que encapsulem os dados relacionados.
 
 10. Instruções switch:
     10.1. Substituir condicional por polimorfismo: Substituir as instruções "switch" por uma hierarquia de classes com comportamentos específicos para cada plataforma.
