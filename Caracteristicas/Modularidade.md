@@ -22,12 +22,9 @@ Dentre os maus cheiros de código apresentados por Martin Fowler em sua obra "Re
 
 - Classe grande: A falta da característica pode acarretar na utilização de classes com múltiplas responsabilidades além do que deveriam (baixa coesão).
 
-
 - Cirurgia com rifle: A ausência da característica de modularidade pode fazer com que o code smell seja recorrente, já que por não seguir uma estrutura de módulos com responsabilidades definidas o código pode ser afetado em múltiplos lugares desconectados  por alterações.
 
-
-
-## Operações de refatoração para atingir a característica
+## Técnicas de Refatoração
 
 Dentre as operações de refatoração que podem ajudar a atingir a modularidade, temos as seguintes:
 

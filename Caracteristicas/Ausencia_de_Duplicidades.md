@@ -16,7 +16,7 @@ Por fim, não ter duplicidade no código viabiliza sua reutilização, já que c
 
 ## Relação com maus cheiros de código
 
-Os maus cheiros definidos por Martin Fowler são indicadores de problemas no design e qualidade do código, são pontos em que há possibilidades para aplicação de refatoração. Sendo assim, podemos relaconar diretamente a característica de ausência de duplicidades à eliminação de maus cheiros definidos por Martin, podendo destacar:
+Os maus cheiros definidos por Martin Fowler são indicadores de problemas no design e qualidade do código, são pontos em que há possibilidades para aplicação de refatoração. Sendo assim, podemos relacionar diretamente a característica de ausência de duplicidades à eliminação de maus cheiros definidos por Martin, podendo destacar:
 
 1. Código duplicado: A ausência de duplicidades elimina diretamente esse mau cheiro, porque uma vez que exista duplicação, sabemos que partes similares ou idênticas do código estão em partes diferentes do programa. Eliminando a duplicidade, promovemos a reutilização de código e aumentamos sua clareza e coesão.
 
