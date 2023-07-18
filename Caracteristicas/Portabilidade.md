@@ -69,4 +69,4 @@ Para melhorar a portabilidade, é necessário realizar refatorações que lidem 
     - Trocar dado por objeto: Substituir o uso excessivo de tipos primitivos por objetos que encapsulem os dados relacionados.
 
 10. Instruções switch:
-    10.1. Substituir condicional por polimorfismo: Substituir as instruções "switch" por uma hierarquia de classes com comportamentos específicos para cada plataforma.
+    - Substituir condicional por polimorfismo: Substituir as instruções "switch" por uma hierarquia de classes com comportamentos específicos para cada plataforma.
