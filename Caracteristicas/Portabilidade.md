@@ -39,11 +39,11 @@ Tendo em vista os maus cheiros de código definidos por Martin Flower (1999), é
 Para melhorar a portabilidade, é necessário realizar refatorações que lidem com os maus cheiros supracitados. Aqui estão algumas técnicas de refatoração que podem ser aplicadas em cada um dos maus cheiros:
 
 1. Código duplicado:
-    1.1. Extrair método: Identificar o código duplicado e extrair a lógica repetida para um novo método, que pode ser chamado em vários locais.
+    - Extrair método: Identificar o código duplicado e extrair a lógica repetida para um novo método, que pode ser chamado em vários locais.
 
 2. Método longo:
-    2.1. Extrair método: Identificar partes do método que realizam funcionalidades distintas e extrair essas partes para métodos menores e mais específicos.
-    2.2. Introduzir objeto-parâmetro: Se o método longo envolver grupos de parâmetros, criar um objeto que represente esses parâmetros e passá-lo para o método extraído.
+    - Extrair método: Identificar partes do método que realizam funcionalidades distintas e extrair essas partes para métodos menores e mais específicos.
+    - Introduzir objeto-parâmetro: Se o método longo envolver grupos de parâmetros, criar um objeto que represente esses parâmetros e passá-lo para o método extraído.
 
 3. Classe inchada:
     3.1. Extrair classe: Identificar responsabilidades distintas na classe e criar novas classes para tratar essas responsabilidades separadamente.
